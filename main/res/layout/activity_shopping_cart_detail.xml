@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shopping_cart_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffe7f2">
+
+    <include
+        layout="@layout/mylayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:text="Shopping Cart Details"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#730101"/>
+
+
+    <TextView
+        android:id="@+id/tv19"
+        android:text="Shopping Cart Details"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#730101"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:id="@+id/tv220"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    <TextView
+        android:id="@+id/tv20"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:id="@+id/tv221"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    <TextView
+        android:id="@+id/tv21"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:id="@+id/tv222"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    <TextView
+        android:id="@+id/tv22"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:id="@+id/tv223"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    <TextView
+        android:id="@+id/tv23"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9da3b9"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:id="@+id/tv224"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    <TextView
+        android:id="@+id/tv24"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textColor="#9da3b9"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt1"
+        android:text="Proceed to Shipping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go"
+        android:textColor="#9da3b9"/>
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe7f2">
+    </ListView>
+
+
+
+.</LinearLayout>

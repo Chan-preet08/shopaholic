@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.arndroidholics.hp.onlinegiftshop.single_pro_carousel"
+    android:id="@+id/ll555"
+    android:background="#ffe7f2"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1111"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:textColor="#730101" />
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:radius="6dp"
+        app:slideInterval="3000">
+
+    </com.synnapps.carouselview.CarouselView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv22222"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:layout_weight="5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2222"
+        android:textSize="24sp"
+        android:gravity="right"
+        android:layout_weight="5"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv33333"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:layout_weight="5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3333"
+        android:textSize="24sp"
+        android:gravity="right"
+        android:layout_weight="5"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4444"
+        android:textSize="24sp"
+        android:gravity="left"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt100"
+        android:text="Add To Cart"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt101"
+        android:text="Checkout Now"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt102"
+        android:text="Continue Shopping"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
